@@ -9,7 +9,7 @@ void process(int n, int m, int matrix[M][N], int* result){
     for(int i = 0; i < m; ++i){
         temp_max = 0;
         for(int j = 0; j < n; ++j)
-            temp_max += matrix[m][n];
+            temp_max += matrix[i][j];
         if(temp_max > *result)
             max = temp_max;
     }
