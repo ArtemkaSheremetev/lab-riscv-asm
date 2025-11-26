@@ -38,7 +38,7 @@ void process(int n, int m, int matrix[M][N], int* result){
 }
 
 ```
-#Дизассемблированная версия функции process:
+Дизассемблированная версия функции process:
 ```asm
 00010140 <process>:
    10140:	fd010113          	addi	sp,sp,-48      # Создание стекового фрейма
